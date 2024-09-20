@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>oops</title>
+<style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        body {
+            display: table;
+            font-family: Arial, sans-serif;
+        }
+
+        .block {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        </style>
+</head>
+<body style="background-color: #20262D;">
+<div class="block">
+<img src=""> <!-- cescapenotpleased image goes here -->
+  <h1 style="color:#FFFFFF">uh oh... ethan broke something...</h1>
+  <h1 style="color:#FFFFFF">::CLOUDFLARE_ERROR_500S_BOX::</h1>
+</div>
+</body>
+</html> 
