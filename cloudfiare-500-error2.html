@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>oops</title>
+    <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+
+            body {
+                display: table;
+                font-family: Ubuntu, sans-serif;
+                color: #ffffff;
+            }
+
+            .block {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .svg-div {
+                position: fixed;
+                top: 0;
+                right: 0;
+            }
+            h1 {
+                font-size: 3rem
+            }
+            h2 {
+                font-size: 2rem
+            }
+            h3 {
+                font-size: 1rem
+            }
+            </style>
+    </head>
+    <script>
+        function selectRandomGif() {
+            function getRandomInt(max) {
+                return Math.floor(Math.random() * max);
+            }
+
+            const gifList = ["https://media.tenor.com/VmmyJKsneGMAAAAj/sad.gif", "https://media1.tenor.com/m/8m066eOzOb8AAAAd/ogli.gif", 
+                "https://media.tenor.com/VUcinKcpRyEAAAAj/cry-about-it.gif", "https://media1.tenor.com/m/aiyoyn0voEAAAAAd/rip-pack.gif",
+                "https://github.com/Eternal-Esports-Club/CloudFlareErrors/blob/main/cescape_not_pleased.jpg?raw=true"];
+            document.getElementById('gif-img').src = gifList[getRandomInt(gifList.length)];
+        }
+    </script>
+    <body style="background-color: #27272A" onload="selectRandomGif();">
+        <div class="block">
+            <h1>The Ethans are performing maintenance.<br> The site will return soon.</h1>
+            <h2>Keep up to date in our <a href="https://discord.gg/eternaleec" style="color: #0FFF95">discord</a>!</h2>
+            <img id="gif-img" src="" alt="" onclick="changeImage(this);" width="250" height="250"/>
+            <h3>::CLOUDFLARE_ERROR_500S_BOX::</h3>
+
+        </div>
+    </body>
+</html>
